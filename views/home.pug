@@ -1,0 +1,15 @@
+doctype html
+html
+   head
+      title="Home"
+   body
+      p.greetings#people This is the home page
+
+        form(action='/film' method="POST")
+       
+            label(for='title') Write a tite: 
+            input#title(type='text', name='title')
+
+            input(type='submit', value='Submit')
+
+            <% if 
